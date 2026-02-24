@@ -1,5 +1,3 @@
-import numpy as np
-
 def central_diff_neumann(x,y,f):
     N = int(len(x))
     h = x.max()/N
